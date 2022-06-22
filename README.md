@@ -1,13 +1,9 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-## Laravel React Boilerplate
+## Authentication
 
-<p>
-<a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-redux" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
-</p>
 
-Laravel React Boilerplate helps to fasten your development, Instead of spending more time on configuring React and SPA Authentication.
+Laravel React application for login signup.
 
 ### Pre-Configured with
 
@@ -49,7 +45,7 @@ You can choose either one for your development
 1. Install using composer
 
 ```
-composer create-project nilanth/laravel-react-boilerplate
+composer create-project --prefer-dist laravel/laravel authentication
 ```
 
 2. `cd laravel-react-boilerplate`
@@ -63,7 +59,7 @@ composer create-project nilanth/laravel-react-boilerplate
 
 ### Option 2
 1. Clone this Repo
-2. `cd laravel-react-boilerplate`
+2. `cd authentication`
 3. Create a .env by copying .env.example and Update the required fields.
 4. Run `composer install`
 5. Run `php artisan key:gen`
@@ -75,18 +71,4 @@ composer create-project nilanth/laravel-react-boilerplate
 11. Run `yarn run dev`
 12. Update API HOST_URL in `resources/js/config/constant.js` file
 
-## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
--   [Nilanth](https://github.com/nilanth)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
